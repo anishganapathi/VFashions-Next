@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Sets the base directory for resolving paths
+    "paths": {
+      "@/*": ["./*"] // Maps "@/..." to the root directory
+    }
+  },
+  "include": ["./**/*"], // Include all files in the project directory
+  "exclude": ["node_modules"] // Exclude unnecessary files
+}
